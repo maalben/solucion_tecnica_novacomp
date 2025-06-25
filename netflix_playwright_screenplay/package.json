@@ -1,0 +1,13 @@
+{
+  "name": "netflix-playwright-screenplay",
+  "version": "1.0.0",
+  "description": "Automatización Netflix con Playwright y patrón Screenplay",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
