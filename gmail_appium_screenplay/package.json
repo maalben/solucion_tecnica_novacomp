@@ -1,0 +1,16 @@
+{
+  "name": "gmail-appium-screenplay",
+  "version": "1.0.0",
+  "description": "Automatización Gmail app con Appium y Screenplay",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/tests/gmail.spec.js"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.16.2",
+    "@wdio/cli": "^9.16.2",
+    "@wdio/junit-reporter": "^9.16.2",
+    "allure-commandline": "^2.34.1",
+    "webdriverio": "^7.30.0"
+  }
+}
